@@ -36,3 +36,12 @@
  dest: "var/www/html"
  ```
  ##### Note: Your default path for ansible roles is set inside /etc/ansible/ansible.cfg --vi and search for something with ansible_path, you may change the path as per your need
+ 1. Let's go inside playbook directory and create file with soemthing like rolegiven.yml
+ ```yml
+ ---
+ - name: Installing httpd
+   hosts: db (or whatever you group is)
+   become: true
+   roles:
+     - ../roles/httpd
+     ```
