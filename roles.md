@@ -35,4 +35,4 @@
  ```yml
  dest: "var/www/html"
  ```
- 
+ ##### Note: Your default path for ansible roles is set inside /etc/ansible/ansible.cfg --vi and search for something with ansible_path, you may change the path as per your need
