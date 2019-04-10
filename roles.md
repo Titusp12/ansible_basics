@@ -33,7 +33,7 @@
  ```
  4. Go inside var directory and edit main.yml
  ```yml
- dest: "var/www/html"
+ dest: "/var/www/html"
  ```
  ##### Note: Your default path for ansible roles is set inside /etc/ansible/ansible.cfg --vi and search for something with ansible_path, you may change the path as per your need
  1. Let's go inside playbook directory and create file with soemthing like rolegiven.yml
