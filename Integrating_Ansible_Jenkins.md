@@ -26,7 +26,7 @@ name: boto
  * Create user in IAM and input ACCESS key in vars ACCESS, copy SECRET key for command line
  * Change MYKEY to whatever key name i have
  * Get subnet ID from default (VPC --> Subnet --> Default) and put in vpc_subnet_id (in two places)
- * Command to execute: ansible-playbook configure-infra.yml -e "SECRET=<input secret key here>"
+ * Command to execute: ansible-playbook configure-infra.yml -e "SECRET= <input secret key here>"
 
 ```yml 
 ---
