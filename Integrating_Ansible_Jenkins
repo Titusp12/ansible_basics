@@ -1,4 +1,20 @@
 ##### NOTES: Steps to integrate Ansible with AWS
+
 1. Import Controller's Public key to AWS (Key Pair).
 2. Update Controller's security group by allowing port 80 (HTTP)
-3. 
+3. Configure Boto
+```yml
+---
+- name: Installing boto in Controller Machine
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Installing pip
+      easy_install:
+        name: pip
+        state: latest
+
+    - name: Installing Boto
+      pip:
+name: boto
+```
