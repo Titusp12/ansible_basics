@@ -22,9 +22,10 @@ name: boto
 
 ```
 4. Configure Infra
- a. Create user in IAM and input ACCESS key in vars ACCESS, copy SECRET key for command line
- b. Change MYKEY to whatever key name i have
- c. Get subnet ID from default (VPC --> Subnet --> Default) and put in vpc_subnet_id (in two places)
+#####
+ * Create user in IAM and input ACCESS key in vars ACCESS, copy SECRET key for command line
+ * Change MYKEY to whatever key name i have
+ * Get subnet ID from default (VPC --> Subnet --> Default) and put in vpc_subnet_id (in two places)
 
 ```yml 
 ---
