@@ -3,7 +3,10 @@
 1. Import Controller's Public key to AWS (Key Pair).
 2. Update Controller's security group by allowing port 80 (HTTP)
 3. Configure Boto
+
 ```yml
+
+
 ---
 - name: Installing boto in Controller Machine
   hosts: localhost
@@ -17,4 +20,5 @@
     - name: Installing Boto
       pip:
 name: boto
+
 ```
