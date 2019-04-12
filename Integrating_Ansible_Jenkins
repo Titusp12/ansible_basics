@@ -6,7 +6,6 @@
 
 ```yml
 
-
 ---
 - name: Installing boto in Controller Machine
   hosts: localhost
