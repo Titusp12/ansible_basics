@@ -1,4 +1,4 @@
-##### NOTES: Steps to integrate Ansible with AWS
+#### NOTE: Steps to integrate Ansible with AWS
 
 1. Import Controller's Public key to AWS (Key Pair).
 2. Update Controller's security group by allowing port 80 (HTTP)
